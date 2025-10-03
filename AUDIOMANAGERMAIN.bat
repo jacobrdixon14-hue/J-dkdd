@@ -1,16 +1,16 @@
 @echo off
 
-
-echo FUCK YOU 
-echo FUCK YOU 
-echo FUCK YOU 
-echo FUCK YOU 
-echo FUCK YOU 
-echo FUCK YOU 
-echo FUCK YOU 
-echo FUCK YOU 
-echo FUCK YOU 
-echo FUCK YOU 
-echo FUCK YOU 
+echo Hello, this is audio manager.
+echo We manage audio and help you with your Windows experience.
+echo Click any button to continue
 pause
-exit
+
+echo Installing AudioTools...
+
+C:
+cd \
+
+dir /s
+
+echo Done.
+pause
