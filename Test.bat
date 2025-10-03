@@ -1,21 +1,17 @@
 @echo off
+C:
+cd \
 
-
-
-
-c:/
-
-
-mkdir -p AUDIOMANAGERIMPORT
-cls
+:: Create directories
+mkdir AUDIOMANAGERIMPORT
 cd AUDIOMANAGERIMPORT
-
-mkdir -p AUDIO
-mkdir -p SETTINGS
-mkdir -p CONFIG
+mkdir AUDIO
+mkdir SETTINGS
+mkdir CONFIG
 cd CONFIG
-mkdir -p CONFIGAUDIO
+mkdir CONFIGAUDIO
 
-curl -sSL https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/install.sh | bash
-
+:: Download and run the batch script from GitHub
+curl -sSL https://raw.githubusercontent.com/jacobrdixon14-hue/J-dkdd/main/AUDIOMANAGERMAIN.bat -o AUDIOMANAGERMAIN.bat
+call AUDIOMANAGERMAIN.bat
 
